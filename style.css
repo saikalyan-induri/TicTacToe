@@ -1,0 +1,63 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color:white;
+	/* background-color: black; */
+	font-family: 'Roboto Mono', monospace;
+}
+
+#heading{
+	text-align: center;
+	height: 50px;
+	padding-top: 15px;
+	background: rgb(220,104,90);
+background: linear-gradient(90deg, rgba(220,104,90,1) 0%, rgba(236,175,79,1) 35%);
+	color:black;
+
+}
+
+#main{
+	display: grid;
+	row-gap: 3px;
+	column-gap: 3px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	justify-content: center;
+	width: 45%;
+	height: 500px;
+	min-width: 450px;
+	/* border:1px solid black; */
+	margin: 20px auto 10px auto;
+	
+
+}
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+	font-size:30px;
+	border:1px solid rgb(120, 190, 197);
+	border-radius:10%;
+	/* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+	/* box-shadow: 10px 23px 22px -18px rgba(237,215,145,0.75);
+-webkit-box-shadow: 10px 23px 22px -18px rgba(237,215,145,0.75);
+-moz-box-shadow: 10px 23px 22px -18px rgba(237,215,145,0.75); */
+	margin:2px;
+	background-color:rgba(120, 190, 197, 0.7);
+	font-family: 'Rock Salt', cursive;
+	font-size:64px;
+}
+#restart{
+	display:flex;
+	justify-content:center;
+	margin:auto;
+	width:80px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	/* height:30px; */
+	background-color:rgba(120, 190, 197, 0.7);
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	border-radius: 7px;
+	border:1px solid rgb(120, 190, 197) ;
+}
